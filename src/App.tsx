@@ -27,6 +27,7 @@ import { FoodPlanner } from './components/FoodPlanner';
 import { WeatherWidget } from './components/WeatherWidget';
 import { TripFormModal } from './components/TripFormModal';
 import { AICopilotDrawer } from './components/AICopilotDrawer';
+import { N8nChatWidget } from './components/N8nChatWidget';
 import { Sparkles, MapPin, Calendar, Heart } from 'lucide-react';
 
 export default function App() {
@@ -207,6 +208,9 @@ export default function App() {
         onClose={() => setIsCopilotOpen(false)}
         trip={activeTrip}
       />
+
+      {/* Official n8n Chatbot Widget */}
+      <N8nChatWidget />
 
       {/* Clean Minimalist Footer */}
       <footer className="border-t border-slate-200/80 bg-white py-6 mt-12">

@@ -157,10 +157,11 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="flex items-center gap-2 sm:gap-3">
           <button
             onClick={onOpenCopilot}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-teal-50 hover:bg-teal-100 text-teal-700 text-xs sm:text-sm font-semibold border border-teal-200/80 transition-all shadow-2xs hover:shadow-sm"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-orange-50 hover:bg-orange-100 text-orange-800 text-xs sm:text-sm font-semibold border border-orange-200/80 transition-all shadow-2xs hover:shadow-sm"
           >
-            <Bot className="w-4 h-4 text-teal-600" />
+            <Bot className="w-4 h-4 text-orange-600" />
             <span className="hidden sm:inline">AI Copilot</span>
+            <span className="text-[10px] font-bold bg-orange-200 text-orange-900 px-1 py-0.2 rounded">n8n</span>
           </button>
 
           <button
